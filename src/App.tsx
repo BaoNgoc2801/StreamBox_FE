@@ -31,6 +31,7 @@ const AnimatedRoutes: React.FC = () => {
                 <Route path="/signIn" element={<PageWrapper><SignIn /></PageWrapper>} />
                 <Route path="/signUp" element={<PageWrapper><SignUp /></PageWrapper>} />
                 <Route path="*" element={<PageWrapper><NotFound /></PageWrapper>} />
+
             </Routes>
         </AnimatePresence>
     );
