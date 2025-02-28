@@ -58,6 +58,21 @@ const SignUp: React.FC = () => {
                             />
                         </div>
 
+                        <div>
+                            <label htmlFor="re-password" className="block mb-1 text-sm">
+                                Confirm Password
+                            </label>
+                            <input
+                                id="re-password"
+                                type="re-password"
+                                placeholder="Enter your password again"
+                                className="w-full p-3 rounded bg-gray-700 border border-gray-600
+                           placeholder-gray-400 focus:outline-none
+                           focus:ring-2 focus:ring-purple-500"
+                            />
+                        </div>
+
+
                         <button
                             type="submit"
                             className="w-full p-3 rounded bg-purple-600 hover:bg-purple-700
@@ -68,9 +83,9 @@ const SignUp: React.FC = () => {
                     </form>
 
                     <div className="flex items-center my-4">
-                        <hr className="flex-grow border-gray-600" />
+                        <hr className="flex-grow border-gray-600"/>
                         <span className="mx-2 text-gray-400">OR</span>
-                        <hr className="flex-grow border-gray-600" />
+                        <hr className="flex-grow border-gray-600"/>
                     </div>
                     <button
                         className="w-full p-3 rounded border border-gray-600 flex items-center

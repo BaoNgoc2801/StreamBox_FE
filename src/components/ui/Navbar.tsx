@@ -8,7 +8,6 @@ const Navbar: React.FC = () => {
 
     return (
         <nav className="w-full flex items-center justify-between bg-white p-2 shadow-md">
-            {/* Logo và tên ứng dụng (click chuyển về trang Home) */}
             <div
                 className="flex items-center gap-2 cursor-pointer"
                 onClick={() => navigate("/")}
@@ -35,7 +34,7 @@ const Navbar: React.FC = () => {
             {/* Search Bar */}
             <div className="relative flex-1 mx-4 max-w-xl">
         <span className="absolute inset-y-0 left-2 flex items-center text-gray-400">
-          <Search className="w-5 h-5" />
+          <Search className="w-5 h-5"/>
         </span>
                 <input
                     type="text"
@@ -49,9 +48,9 @@ const Navbar: React.FC = () => {
                 {/* Sign In */}
                 <button
                     onClick={() => navigate("/signIn")}
-                    className="text-gray-700 px-4 py-2 rounded hover:bg-gray-100 transition-colors flex items-center gap-2"
+                    className="text-purple-700 border border-purple-700 px-4 py-2 rounded hover:bg-purple-100 transition-colors flex items-center gap-2"
                 >
-                    Sign In <User className="w-5 h-5" />
+                    Sign In <User className="w-5 h-5 text-purple-700"/>
                 </button>
             </div>
         </nav>

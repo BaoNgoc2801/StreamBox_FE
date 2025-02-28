@@ -5,7 +5,7 @@ import { streamsData1, streamsData2 } from "../../data/streamData";
 
 const Home: React.FC = () => {
     return (
-        <div className="bg-gray-900 min-h-screen flex flex-col text-white">
+        <div className="bg-[#f7f7f8] min-h-screen flex flex-col text-white">
 
 
             <div className="flex flex-1">
