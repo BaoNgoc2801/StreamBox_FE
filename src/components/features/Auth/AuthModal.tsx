@@ -12,7 +12,7 @@ const AuthModal: React.FC<AuthModalProps> = ({ onClose }) => {
 
     return (
         <motion.div
-            className="fixed inset-0 flex items-center justify-center bg-opacity-50 z-50"
+            className="fixed inset-0 flex items-center justify-center bg-opacity-50 z-50 "
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -134,7 +134,7 @@ const AuthModal: React.FC<AuthModalProps> = ({ onClose }) => {
                             autoPlay
                             loop
                             muted
-                            className="w-full h-full object-cover absolute top-0 left-0 opacity-30"
+                            className="w-full h-full object-cover absolute top-0 left-0 opacity-50"
                         />
                         <AnimatePresence mode="wait">
                             <motion.div
